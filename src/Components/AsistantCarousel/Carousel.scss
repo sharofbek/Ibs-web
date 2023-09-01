@@ -1,0 +1,230 @@
+.work-carousel{
+  width: 100%;
+  border-radius: 20px;
+  background: #292929;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 80px auto;
+
+  .work{
+    width: 81%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    .work-text{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      gap: 35px;
+      align-items: start;
+
+      h1{
+        width: 80%;
+        font-size: 50px;
+        color: white;
+        line-height: 60px;
+      }
+      p{
+        width: 70%;
+        font-size: 17px;
+        line-height: 27px;
+        color: white;
+      }
+
+      button{
+        padding: 18px 52.97px 18px 53px;
+        border: 1px solid transparent;
+        border-radius: 12px;
+        background: #4947FF;
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+        margin-top: 40px;
+      }
+
+
+    }
+  }
+
+  .partner-carousel{
+    width: 81%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+
+    h1{
+      color: white;
+      margin: 30px 0;
+    }
+
+    .carousel{
+      .partner-card{
+        width: 95%;
+        height: 357px;
+        border-radius: 20px;
+        background: #FFDF6E;
+        display: flex;
+        flex-direction: column;
+        color: black;
+        align-items: flex-start;
+        padding: 32px;
+        justify-content: space-between;
+
+        .user{
+          background-color: black;
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+        }
+        h4{
+          font-size: 23px;
+        }
+
+        p{
+          width: 80%;
+          font-size: 15px;
+          line-height: 24px;
+        }
+      }
+
+    }
+
+  }
+
+
+  .employment{
+    width: 81%;
+    height: auto;
+    margin: 40px auto;
+    display: flex;
+    gap: 70px;
+
+    .box{
+      width: 33%;
+      height: auto;
+      padding: 25px;
+      color: black;
+      border-radius: 20px;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      margin-bottom: 40px;
+      h1{
+        font-size: 52px;
+        padding-left: 20px;
+      }
+
+      span{
+        font-size: 17px;
+        line-height: 24px;
+        padding-left: 20px;
+        margin-bottom: 20px;
+      }
+
+      .card-box{
+        width: 100%;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+        border: 1px solid lightgrey;
+      }
+
+    }
+
+    .employment-text{
+      width: 55%;
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      margin-bottom: 20px;
+      h1{
+        font-size: 50px;
+        margin-bottom: 30px;
+      }
+
+      h4{
+        color: #E0E0E0;
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 26px;
+      }
+      p{
+        font-size: 15px;
+        line-height: 24px;
+        width: 77%;
+        margin-bottom: 20px;
+      }
+
+    }
+  }
+
+
+}
+
+
+@media (max-width: 600px) {
+  .work-carousel{
+    width: 100%;
+    border-radius: 0;
+    margin: auto;
+
+
+    .work{
+      width: 90%;
+      flex-direction: column;
+      align-items: start;
+
+      .work-text{
+        width: 100%;
+        h1{
+          width: 100%;
+          font-size: 30px;
+        }
+        p{
+          width: 100%;
+        }
+
+      }
+
+      img{
+        width: 90%;
+      }
+    }
+
+    .partner-carousel{
+      width: 90%;
+      margin: auto;
+      .partner-card{
+        width: 100%;
+      }
+    }
+
+    .employment{
+      width: 90%;
+      flex-direction: column;
+
+      .box{
+        margin-bottom: 0px;
+        width: 100%;
+      }
+
+      .employment-text{
+        width: 100%;
+
+        h1{
+          font-size: 25px;
+        }
+
+        p{
+          width: 100%;
+        }
+
+      }
+    }
+  }
+}
+

@@ -1,0 +1,50 @@
+.CheckCourse{
+  width: 81%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+  h1{font-size: 50px;}
+
+  .check-cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    .check-card{
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 40px;
+      height: 88px;
+
+      img{
+        width: 6%;
+      }
+      p{
+        width: 80%;
+        font-size: 15px;
+        line-height: 24px;
+
+      }
+    }
+
+  }
+}
+
+
+@media (max-width: 600px)  {
+  .CheckCourse{
+    width: 90%;
+
+    .check-cards{
+      .check-card{
+        width: 100%;
+        p{
+          width: 100%;
+        }
+      }
+    }
+  }
+
+}
